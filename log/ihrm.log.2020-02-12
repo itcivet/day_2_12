@@ -1,0 +1,45 @@
+2020-02-12 19:47:42,056 INFO [api_login.py(__init__:16)] - 正在初始化登陆url:http://182.92.81.159/api/sys/login
+2020-02-12 19:47:42,056 INFO [api_login.py(api_login:23)] - 正在初始化登陆数据:{'mobile': '13800000002', 'password': '123456'}请求信息头:{'Content-Type': 'application/json'}
+2020-02-12 19:47:42,154 INFO [test01_login.py(test_login:44)] - 正在提取token:c60f0f0b-802f-4d70-b386-4b1955b0fb74
+2020-02-12 19:47:42,155 INFO [api_employee.py(__init__:20)] - 新增员工url:http://182.92.81.159/api/sys/user
+2020-02-12 19:47:42,155 INFO [api_employee.py(__init__:21)] - 删除,更新,修改url:http://182.92.81.159/api/sys/user/{}
+2020-02-12 19:47:42,155 INFO [api_employee.py(api_post_employee:29)] - 新增员工数据:{'username': 'bib_06', 'mobile': '13106547555', 'workNumber': '12168'}新增员工请求信息头:{'Content-Type': 'application/json', 'Authorization': 'Bearer c60f0f0b-802f-4d70-b386-4b1955b0fb74'}
+2020-02-12 19:47:42,280 INFO [api_employee.py(api_post_employee:33)] - xxxxx:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227559895725068288'}}
+2020-02-12 19:47:42,281 INFO [api_employee.py(api_delete_employee:50)] - 删除员工信息头提示:{'Content-Type': 'application/json', 'Authorization': 'Bearer c60f0f0b-802f-4d70-b386-4b1955b0fb74'}
+2020-02-12 19:47:42,491 ERROR [assert_common.py(asser_common:24)] - True != False
+2020-02-12 19:47:42,587 ERROR [assert_common.py(asser_common:24)] - True != False
+2020-02-12 20:31:46,931 INFO [api_login.py(__init__:16)] - 正在初始化登陆url:http://182.92.81.159/api/sys/login
+2020-02-12 20:31:46,931 INFO [api_login.py(api_login:23)] - 正在初始化登陆数据:{'mobile': '13800000002', 'password': '123456'}请求信息头:{'Content-Type': 'application/json'}
+2020-02-12 20:31:47,047 INFO [test01_login.py(test_login:44)] - 正在提取token:15d5b964-bdc2-423d-9c95-6778a24aa71b
+2020-02-12 20:40:37,590 INFO [api_login.py(__init__:16)] - 正在初始化登陆url:http://182.92.81.159/api/sys/login
+2020-02-12 20:40:37,590 INFO [api_login.py(api_login:23)] - 正在初始化登陆数据:{'mobile': '13800000002', 'password': '123456'}请求信息头:{'Content-Type': 'application/json'}
+2020-02-12 20:40:37,684 INFO [test01_login.py(test_login:44)] - 正在提取token:16045c8c-553a-4a1a-9783-0a817285f01e
+2020-02-12 20:52:53,004 INFO [api_login.py(__init__:16)] - 正在初始化登陆url:http://182.92.81.159/api/sys/login
+2020-02-12 20:52:53,004 INFO [api_login.py(api_login:23)] - 正在初始化登陆数据:{'mobile': '13800000002', 'password': '123456'}请求信息头:{'Content-Type': 'application/json'}
+2020-02-12 20:52:53,118 INFO [test01_login.py(test_login:44)] - 正在提取token:04db60bd-bce9-4f70-bc55-41965df61236
+2020-02-12 20:55:48,903 INFO [api_login.py(__init__:16)] - 正在初始化登陆url:http://182.92.81.159/api/sys/login
+2020-02-12 20:55:48,904 INFO [api_login.py(api_login:23)] - 正在初始化登陆数据:{'mobile': '13800000002', 'password': '123456'}请求信息头:{'Content-Type': 'application/json'}
+2020-02-12 20:55:49,045 INFO [test01_login.py(test_login:44)] - 正在提取token:2e1e2b3d-84c2-4253-9170-ea53fa91e0cd
+2020-02-12 20:55:49,045 INFO [api_employee.py(__init__:20)] - 新增员工url:http://182.92.81.159/api/sys/user
+2020-02-12 20:55:49,045 INFO [api_employee.py(__init__:21)] - 删除,更新,修改url:http://182.92.81.159/api/sys/user/{}
+2020-02-12 20:55:49,045 INFO [api_employee.py(api_post_employee:29)] - 新增员工数据:{'username': 'bbds-01', 'mobile': '13500214522', 'workNumber': '168178'}新增员工请求信息头:{'Content-Type': 'application/json', 'Authorization': 'Bearer 2e1e2b3d-84c2-4253-9170-ea53fa91e0cd'}
+2020-02-12 20:55:49,154 INFO [api_employee.py(api_post_employee:33)] - xxxxx:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227577037409308672'}}
+2020-02-12 20:55:49,154 INFO [test02_employee.py(test01_post:31)] - 新增员工结果:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227577037409308672'}}
+2020-02-12 20:55:49,154 INFO [test02_employee.py(test01_post:35)] - 新增员工后提取的员工id为:1227577037409308672
+2020-02-12 20:55:49,154 INFO [api_employee.py(api_delete_employee:50)] - 删除员工信息头提示:{'Content-Type': 'application/json', 'Authorization': 'Bearer 2e1e2b3d-84c2-4253-9170-ea53fa91e0cd'}
+2020-02-12 20:55:49,377 INFO [test02_employee.py(test_02put:41)] - 更新员工结果为:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-02-12 20:55:49,378 ERROR [assert_common.py(asser_common:24)] - True != False
+2020-02-12 20:55:49,486 INFO [test02_employee.py(test_03get:49)] - 查询员工结果为:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-02-12 20:55:49,486 ERROR [assert_common.py(asser_common:24)] - True != False
+2020-02-12 20:57:35,266 INFO [api_login.py(__init__:16)] - 正在初始化登陆url:http://182.92.81.159/api/sys/login
+2020-02-12 20:57:35,266 INFO [api_login.py(api_login:23)] - 正在初始化登陆数据:{'mobile': '13800000002', 'password': '123456'}请求信息头:{'Content-Type': 'application/json'}
+2020-02-12 20:57:35,381 INFO [test01_login.py(test_login:44)] - 正在提取token:859a7fa4-b7dc-4ca3-aa81-823bebd90dc3
+2020-02-12 20:57:35,382 INFO [api_employee.py(__init__:20)] - 新增员工url:http://182.92.81.159/api/sys/user
+2020-02-12 20:57:35,382 INFO [api_employee.py(__init__:21)] - 删除,更新,修改url:http://182.92.81.159/api/sys/user/{}
+2020-02-12 20:57:35,382 INFO [api_employee.py(api_post_employee:29)] - 新增员工数据:{'username': 'bbds-01', 'mobile': '13500214522', 'workNumber': '168178'}新增员工请求信息头:{'Content-Type': 'application/json', 'Authorization': 'Bearer 859a7fa4-b7dc-4ca3-aa81-823bebd90dc3'}
+2020-02-12 20:57:35,496 INFO [api_employee.py(api_post_employee:33)] - xxxxx:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227577483423207424'}}
+2020-02-12 20:57:35,497 INFO [test02_employee.py(test01_post:31)] - 新增员工结果:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227577483423207424'}}
+2020-02-12 20:57:35,497 INFO [test02_employee.py(test01_post:35)] - 新增员工后提取的员工id为:1227577483423207424
+2020-02-12 20:57:35,621 INFO [test02_employee.py(test02_put:41)] - 更新员工结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227577483423207424'}}
+2020-02-12 20:57:35,718 INFO [test02_employee.py(test03_get:49)] - 查询员工结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227577483423207424', 'mobile': '13500214522', 'username': 'bibao-01', 'password': '5d14ba73b82333c1291c95a03777f525', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': None, 'timeOfEntry': None, 'formOfEmployment': None, 'workNumber': '168178', 'formOfManagement': None, 'workingCity': None, 'correctionTime': None, 'inServiceStatus': None, 'departmentName': None, 'roleIds': [], 'staffPhoto': None}}
+2020-02-12 20:57:35,718 INFO [api_employee.py(api_delete_employee:50)] - 删除员工信息头提示:{'Content-Type': 'application/json', 'Authorization': 'Bearer 859a7fa4-b7dc-4ca3-aa81-823bebd90dc3'}
