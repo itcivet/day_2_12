@@ -1,0 +1,12 @@
+2020-02-13 19:15:43,618 INFO [api_login.py(__init__:16)] - 正在初始化登陆url:http://182.92.81.159/api/sys/login
+2020-02-13 19:15:43,619 INFO [api_login.py(api_login:23)] - 正在初始化登陆数据:{'mobile': '13800000002', 'password': '123456'}请求信息头:{'Content-Type': 'application/json'}
+2020-02-13 19:15:43,718 INFO [test01_login.py(test_login:44)] - 正在提取token:27625a6d-f27b-4fae-850b-1f056f14da8d
+2020-02-13 19:15:43,718 INFO [api_employee.py(__init__:20)] - 新增员工url:http://182.92.81.159/api/sys/user
+2020-02-13 19:15:43,718 INFO [api_employee.py(__init__:21)] - 删除,更新,修改url:http://182.92.81.159/api/sys/user/{}
+2020-02-13 19:15:43,718 INFO [api_employee.py(api_post_employee:29)] - 新增员工数据:{'username': 'bbds-01', 'mobile': '13500214522', 'workNumber': '168178'}新增员工请求信息头:{'Content-Type': 'application/json', 'Authorization': 'Bearer 27625a6d-f27b-4fae-850b-1f056f14da8d'}
+2020-02-13 19:15:43,839 INFO [api_employee.py(api_post_employee:33)] - xxxxx:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227914243495776256'}}
+2020-02-13 19:15:43,839 INFO [test02_employee.py(test01_post:31)] - 新增员工结果:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227914243495776256'}}
+2020-02-13 19:15:43,839 INFO [test02_employee.py(test01_post:35)] - 新增员工后提取的员工id为:1227914243495776256
+2020-02-13 19:15:43,976 INFO [test02_employee.py(test02_put:41)] - 更新员工结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227914243495776256'}}
+2020-02-13 19:15:44,121 INFO [test02_employee.py(test03_get:49)] - 查询员工结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1227914243495776256', 'mobile': '13500214522', 'username': 'bibao-01', 'password': '5d14ba73b82333c1291c95a03777f525', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': None, 'timeOfEntry': None, 'formOfEmployment': None, 'workNumber': '168178', 'formOfManagement': None, 'workingCity': None, 'correctionTime': None, 'inServiceStatus': None, 'departmentName': None, 'roleIds': [], 'staffPhoto': None}}
+2020-02-13 19:15:44,121 INFO [api_employee.py(api_delete_employee:50)] - 删除员工信息头提示:{'Content-Type': 'application/json', 'Authorization': 'Bearer 27625a6d-f27b-4fae-850b-1f056f14da8d'}
